@@ -1,2 +1,117 @@
 @charset "UTF-8";
 
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+/*#headerのcss*/
+#header{
+    background-color: #f2afb0;
+}
+
+.inner{
+    width: 940px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header-logo {
+    float: left;
+    padding: 20px 0;
+}
+.global-nav {
+    float: right;
+    position: relative;
+    top: 42px;
+}
+
+.global-nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.global-nav li {
+    float: left;
+    margin-right: 20px;
+}
+
+.global-nav li:last-child{
+    margin-right: 0;
+}
+.global-nav a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.global-nav a:hover{
+    color: #b9080c;
+}
+
+/*メインビジュアルmv*/
+#mv {
+    height: 900px;
+    background: url(../img/hd_header.png) center center no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 200px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.mv-btn{
+   text-align: center;
+   margin-top: 434px;
+}
+.mv-txt{
+    font-size: 24px;
+    color: #fff;
+    margin-top: 15px;
+}
+/*ABOUT*/
+#top-about{
+    padding: 160px 0  80px　0;
+    position: relative;
+}
+
+/*ABOUT-左側*/
+.about-content-left{
+    width: 460px;
+    float: left;
+}
+.about-title{
+    margin-bottom: 27px;
+    margin-top: 56px;  
+}
+.about-title-em{
+    font-size: 48px;
+    color: #b9080c;
+    display: block; 
+    line-height: 1;
+}
+.txt-left{
+    margin-bottom: 40px;
+    float: left;
+}
+.about-title-jp{
+    font-size: 24px;
+    color: #b9080c;   
+}
+.img-left{
+    float: right;
+}
+/*ABOUT-右側*/
+.about-content-right{
+    width: 460px;
+}
+.img-right{
+    float: left;
+}
+.txt-right{
+    float: right;
+}
+
+
